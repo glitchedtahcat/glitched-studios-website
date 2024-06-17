@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="../assets/css/style.css" />
+	<link rel="icon" href="../assets/Images/catlogo.jpg" type="image/x-icon">
+	<meta charset="UTF-8">
+	<meta property="og:title" content="Glitched Studios Website">
+	<meta property="og:description"
+		content="This Website is Glitched Studios Offical Website Made By The Owner Glitched Da Kitty Cat aka Glitched">
+	<meta name="theme-color" content="#FF00ED">
+	<title id="title"></title>
+	<div id="navbar">
+		<p>Glitched Studios™</p>
+		<a href="../">Home</a>
+		<a href="/hiddenfolder/undectedgame/">Unblocked Games</a>
+		<a href="/hiddenfolder/VrSection/">Vr Section</a>
+
+		<a href="https://discord.gg/zWyXFAXPbj" target="_blank">Discord</a>
+	</div>
+</head>
+<script>
+	function open() {
+		window.open("https://dash.cloudflare.com/apps/0VJ1mCYqPTh4/install?version=")
+	}
+</script>
+
+<body>
+	<img src="../assets/Images/Glitched Studios Banner.gif" alt="Glitched Studios Banner" width="773" height="104"
+		usemap="#Map" draggable="false" />
+	<map name="Map">
+		<area shape="rect" coords="-8,0,762,95" href="#">
+	</map>
+	<div id="title">
+		<h1 style="text-align: center; cursor: default;"><strong>Welcome To <span style="color: #FB0808; ">G</span><span
+					style="color: #F9071D; ">l</span><span style="color: #F80731; ">i</span><span
+					style="color: #F60646; ">t</span><span style="color: #F4055A; ">c</span><span
+					style="color: #F3056F; ">h</span><span style="color: #F10484; ">e</span><span
+					style="color: #EF0398; ">d</span> <span style="color: #EE03AD; ">S</span><span
+					style="color: #EC02C1; ">t</span><span style="color: #EA01D6; ">u</span><span
+					style="color: #E901EA; ">d</span><span style="color: #E700FF; ">i</span><span
+					style="color: #D415FB; ">o</span><span style="color: #C12BF6; ">s</span><span
+					style="color: #AD40F2; ">™</span> <span style="color: #9A55ED; ">B</span><span
+					style="color: #876AE9; ">a</span><span style="color: #7480E4; ">c</span><span
+					style="color: #6095E0; ">k</span> <span style="color: #4DAADB; ">A</span><span
+					style="color: #3ABFD7; ">l</span><span style="color: #27D5D2; ">l</span><span
+					style="color: #13EACE; ">e</span><span style="color: #00FFC9; ">y</span></strong></h1>
+	</div>
+
+	<h2></h2>
+	<h3>Things U Can Find Out On This Website</h3>
+	<ul>
+		<li>Our Unblocked Games</li>
+		<li>Our Vr Section</li>
+	</ul>
+	<style>
+		ul {
+			background-color: grey;
+			display: block;
+			border-radius: 16px;
+			overflow: hidden;
+			height: 50%;
+			width: 15%;
+			padding: 20px;
+			list-style: inside;
+			list-style-position: inside;
+			border: thin;
+			border-color: blue;
+			border-style: solid;
+		}
+
+		li {
+			margin: 10px;
+		}
+
+		li:hover::marker {
+			color: white;
+		}
+
+		li:hover {
+			color: midnightblue;
+			text-decoration: underline;
+			text-underline-position: auto;
+			text-decoration-color: white;
+			cursor: default;
+		}
+
+		.invisible-button {
+			position: absolute;
+			bottom: 0;
+			right: 0;
+			background-color: red;
+			border: none;
+			padding: 0;
+			font-size: 0;
+			cursor: pointer;
+		}
+
+		.invisible-button:hover {
+			background-color: transparent;
+		}
+
+		#title h1 {
+			background-color: black;
+			display: block;
+			border-radius: 200px;
+			overflow: hidden;
+			margin: auto;
+			width: 50%;
+			padding: 10px;
+			text-decoration: none;
+			cursor: default;
+
+		}
+
+		#title a {
+			text-decoration: none;
+			color: #FB0808;
+			cursor: default;
+		}
+	</style>
+	<script>
+		let titleElement = document.getElementById("title");
+		let titleArray = ["G", "Gl", "Gli", "Glit", "Glitc", "Glitch", "Glitche", "Glitched", "Glitched S", "Glitched St", "Glitched Stu", "Glitched Stud", "Glitched Studi", "Glitched Studio", "Glitched Studios", "Glitched Studios™"];
+		let titleIndex = 0;
+		setInterval(function () {
+			titleElement.textContent = titleArray[titleIndex];
+			titleIndex = (titleIndex + 1) % titleArray.length;
+		}, 300);
+	</script>
+	<script>
+		var navbar = document.getElementById("navbar");
+
+		var sticky = navbar.offsetTop;
+
+		window.onscroll = function () {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky");
+			} else {
+				navbar.classList.remove("sticky");
+			}
+		};
+	</script>
+</body>
+
+</html>
