@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="icon" href="assets/Images/catlogo.jpg" type="image/x-icon">
+<meta charset="UTF-8">
+<meta property="og:title" content="Glitched Studios Website">
+<meta property="og:description" content="This Website is Glitched Studios Offical Website Made By The Owner Glitched Da Kitty Cat aka Glitched">
+<meta name="theme-color" content="#FF00ED">
+<title id="title"></title>
+<div id="navbar">
+  <p>Glitched Studios™</p>
+  <a href="index.html">Home</a>
+	<a href="About_Us.html">About Us</a>
+	<a href="projects.html">Our Projects</a>	
+	<a href="FAQ.html">FAQ</a>	
+	<a href="https://discord.gg/zWyXFAXPbj" target="_blank">Discord</a>
+</div>
+</head>
+<body>
+<img src="assets/Images/Glitched Studios Banner.gif" alt="Glitched Studios Banner" width="773" height="104" usemap="#Map" draggable="false"/>
+<map name="Map">
+  <area shape="rect" coords="-8,0,762,95" href="#">
+</map>	
+<div id="title"><h1 style="text-align: center; cursor: default;"><strong>Welcome To <span style="color: #FB0808; "><a href="/hiddenfolder/">G</a></span><span style="color: #F9071D; ">l</span><span style="color: #F80733; ">i</span><span style="color: #F60648; ">t</span><span style="color: #F4055E; ">c</span><span style="color: #F20573; ">h</span><span style="color: #F10489; ">e</span><span style="color: #EF039E; ">d</span> <span style="color: #ED02B4; ">S</span><span style="color: #EB02C9; ">t</span><span style="color: #EA01DF; ">u</span><span style="color: #E800F4; ">d</span><span style="color: #E001FF; ">i</span><span style="color: #D102FE; ">o</span><span style="color: #C203FD; ">s</span><span style="color: #B404FC; ">™</span> <span style="color: #A505FB; ">H</span><span style="color: #9706FA; ">o</span><span style="color: #8807F9; ">m</span><span style="color: #7908F8; ">e</span><span style="color: #6B09F7; ">p</span><span style="color: #5C0AF6; ">a</span><span style="color: #4E0BF5; ">g</span><span style="color: #3F0CF4; ">e</span></strong></h1></div>
+
+<h2>This Website is the offical website for Glitched Studios™</h2>
+<h3>Things U Can Find Out On This Website</h3>
+<ul>
+<li>Our Projects</li>
+<li>Our About Us</li>
+<li>Our FAQ Page</li>
+</ul>
+<style>
+	ul{
+		background-color: grey; display: block; border-radius: 16px; overflow: hidden;  height: 50%; width: 11%; padding: 20px; list-style: inside; list-style-position: inside;
+		border: thin;
+		border-color: blue;
+		border-style: solid;
+	}
+	li {
+		margin: 10px;
+	}
+	li:hover::marker {
+  color: white;
+}
+	li:hover
+	{
+		color:midnightblue;
+		text-decoration: underline;
+		text-underline-position: auto;
+		text-decoration-color: white;
+		cursor: default;
+	}
+	.invisible-button {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: red;
+		border: none;
+		padding: 0;
+		font-size: 0;
+		cursor: pointer;
+	}
+
+	.invisible-button:hover {
+		background-color: transparent;
+	}
+#title h1
+	{	background-color: black; display: block; border-radius: 200px; overflow: hidden; margin: auto; width: 50%; padding: 10px;
+	text-decoration: none;
+	 cursor: default;
+
+}
+#title a {
+	text-decoration: none;
+	color: #FB0808;
+	cursor: default;
+}
+
+
+</style>
+<script>
+			let titleElement = document.getElementById("title");
+			let titleArray = ["G", "Gl", "Gli", "Glit", "Glitc", "Glitch", "Glitche", "Glitched", "Glitched S", "Glitched St", "Glitched Stu", "Glitched Stud", "Glitched Studi", "Glitched Studio", "Glitched Studios","Glitched Studios™"];
+			let titleIndex = 0;
+			setInterval(function() {
+				titleElement.textContent = titleArray[titleIndex];
+				titleIndex = (titleIndex + 1) % titleArray.length;
+			}, 300);
+		</script> 
+<script>
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+window.onscroll = function() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky");
+	} else {
+		navbar.classList.remove("sticky");
+	}
+};
+</script>
+</body>
+</html>

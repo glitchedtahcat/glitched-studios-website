@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="assets/css/style.css"/>
+<link rel="icon" href="assets/Images/catlogo.jpg" type="image/x-icon">
+<meta charset="UTF-8">
+<meta property="og:title" content="Glitched Studios Website">
+<meta property="og:description" content="This Website is Glitched Studios Offical Website Made By The Owner Glitched Da Kitty Cat aka Glitched">
+<meta name="theme-color" content="#FF00ED">
+<title id="title"></title>
+<div id="navbar">
+  <p>Glitched Studios™</p>
+  <a href="index.html">Home</a>
+	<a href="About_Us.html">About Us</a>
+	<a href="projects.html">Our Projects</a>	
+	<a href="FAQ.html">FAQ</a>	
+
+	<a href="https://discord.gg/zWyXFAXPbj" target="_blank">Discord</a>
+</div>
+</head>
+<body>
+<img src="assets/Images/Glitched Studios Banner.gif" alt="Glitched Studios Banner" width="773" height="104" usemap="#Map" draggable="false"/>
+<map name="Map">
+  <area shape="rect" coords="6,1,773,102" href="index.html">
+</map>	
+<div id="title"><h1 style="text-align: center; cursor: default;"><strong>Welcome To <span style="color: #FB0808; ">G</span><span style="color: #F40815; ">l</span><span style="color: #ED0721; ">i</span><span style="color: #E6072E; ">t</span><span style="color: #DF063B; ">c</span><span style="color: #D80647; ">h</span><span style="color: #D10654; ">e</span><span style="color: #CB0561; ">d</span> <span style="color: #C4056D; ">S</span><span style="color: #BD047A; ">t</span><span style="color: #B60487; ">u</span><span style="color: #AF0393; ">d</span><span style="color: #A803A0; ">i</span><span style="color: #A103AD; ">o</span><span style="color: #9A02B9; ">s</span><span style="color: #9302C6; ">™</span> <span style="color: #8C01D3; ">F</span><span style="color: #8501DF; ">r</span><span style="color: #7E01EC; ">e</span><span style="color: #7700F9; ">q</span><span style="color: #7107FF; ">u</span><span style="color: #6B14FF; ">e</span><span style="color: #6521FF; ">n</span><span style="color: #5F2EFF; ">t</span><span style="color: #593BFF; ">l</span><span style="color: #5348FF; ">y</span> <span style="color: #4D55FF; ">A</span><span style="color: #4762FF; ">s</span><span style="color: #416FFF; ">k</span><span style="color: #3B7CFF; ">e</span><span style="color: #3689FF; ">d</span> <span style="color: #3096FF; ">Q</span><span style="color: #2AA3FF; ">u</span><span style="color: #24B1FF; ">e</span><span style="color: #1EBEFF; ">s</span><span style="color: #18CBFF; ">t</span><span style="color: #12D8FF; ">i</span><span style="color: #0CE5FF; ">o</span><span style="color: #06F2FF; ">n</span><span style="color: #00FFFF; ">s</span></h1></div>
+
+<script>
+	document.addEventListener("DOMContentLoaded", function() {
+		var questions = document.getElementsByClassName("question");
+		for (var i = 0; i < questions.length; i++) {
+			var summary = questions[i].children[0];
+			summary.addEventListener("click", function(event) {
+				var question = event.target.parentNode;
+				var faqBody = question.nextElementSibling;
+				if (faqBody.classList.contains("expanded")) {
+					faqBody.classList.remove("expanded");
+					faqBody.style.height = "0";
+				} else {
+					faqBody.classList.add("expanded");
+					faqBody.style.height = faqBody.scrollHeight + "px";
+				}
+			});
+		}
+	});
+</script>
+	<div id="faq-section">
+		<h2>Theses Are Frequently Asked Questions</h2>
+		<details class="question">
+			<summary class="question-summary">Where can I find the source code for our projects</summary>
+			<p>You can find it at the offical <a style="color:white;" target="_blank"href="https://github.com/Glitched-Studios-Offical">Github</a></p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">When is the offical website coming out</summary>
+			<p>It will be coming soon the pages are being in development and some of the pages are on this website </p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">What is this coded in </summary>
+			<p>This website was made in 
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo" width="20" height="20"> HTML, 
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png" alt="CSS logo" width="20" height="20"> CSS, 
+				<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png" alt="JS logo" width="20" height="20"> JS.
+			</p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">Is the Trademark symbol illegal</summary>
+			<p>Nope, The trademark that is used on this website isnt illegal but it isn't real</p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">Is Glitched Studios a real thing</summary>
+			<p>Yes and No<br>
+Yes, We are real. We actually do what this website says what we do<br>
+No, We are not legally real we are not a registered company or business</p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">Who Made This Website</summary>
+			<p>The maker/dev of the website is the owner Glitched(Caleb)</p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">Where Can I Contact Glitched Studios</summary>
+			<p>You can contact us at our <a target="_blank" style="color: white;" href="https://mail.google.com/mail/u/0/#search/glitchedstudioscontact%40gmail.com
+">offical gmail</a>, and our <a style="color: white;" href="https://discord.gg/zWyXFAXPbj" target="_blank" >offical discord server</a> </p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+		<details class="question">
+			<summary class="question-summary">How Long How Did The Website Take To Make</summary>
+			<p>This website took a few days because I already has js,css,html knowledge but learning the css,html,js used to make this took months</p>
+		</details>
+		<div class="faq-body">
+			<div class="faq-text"></div>
+		</div>
+	  <!-- Add more FAQ sections here -->
+	</div>
+<style>
+	#faq-section {
+		max-width: 800px;
+		margin: 40px auto;
+		padding: 20px;
+		background-color: #557878;
+		border: 1px solid #ddd;
+		border-radius: 10px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+	.question {
+		margin-bottom: 20px;
+		cursor: default;
+	}
+
+	.question-summary {
+		cursor: pointer;
+		padding: 10px;
+		border-bottom: 1px solid #ddd;
+	}
+	.question-summary .a {
+	color: white;
+	}
+	.question-summary:hover {
+		background-color: grey;
+		color: black;
+	}
+
+	.faq-body {
+		overflow: hidden;
+		height: 0;
+		transition: height 0.5s ease-in-out;
+	}
+
+	.expanded {
+		height: auto;
+	}
+	</style>
+	<style>
+	#a1 {
+		background: black;
+		border: thin;
+		display: block;
+		border-color: blue;
+		border-radius: 15px;
+		width: 15%;
+		text-align: center;
+		border-style: solid;
+		animation: borderRotate 10s ease infinite;
+
+	}
+	#a2 {
+		background: black;
+		border: thin;
+		display: block;
+		border-color: blue;
+		border-radius: 15px;
+		width: 15%;
+		text-align: center;
+		border-style: solid;
+		animation: borderRotate 10s ease infinite;
+
+	}
+	.FAQquestbutton{
+		background: grey;
+		border: thin;
+		display: block;
+		border-color: blue;
+		width: 15%;
+		text-align: center;
+		color: white;
+		text-decoration: none;
+		cursor: default;
+		border-style: solid;
+
+	}
+	.FAQquestbutton:hover {
+		text-decoration: underline;
+		text-decoration-color:aquamarine;
+		cursor: pointer;
+		animation: borderRotate 10s ease infinite;
+	}
+	ul{
+		background-color: grey; display: block; border-radius: 16px; overflow: hidden;  height: 50%; width: 11%; padding: 20px; list-style: inside; list-style-position: inside;
+		border: thin;
+		border-color: blue;
+		border-style: solid;
+	}
+	li {
+		margin: 10px;
+	}
+	li:hover::marker {
+  color: white;
+}
+	li:hover
+	{
+		color:midnightblue;
+		text-decoration: underline;
+		text-underline-position: auto;
+		text-decoration-color: white;
+		cursor: default;
+	}
+#title h1
+	{	background-color: black; display: block; border-radius: 200px; overflow: hidden; margin: auto; width: 70%; padding: 10px;
+}</style>
+<script>
+			let titleElement = document.getElementById("title");
+			let titleArray = ["G", "Gl", "Gli", "Glit", "Glitc", "Glitch", "Glitche", "Glitched", "Glitched S", "Glitched St", "Glitched Stu", "Glitched Stud", "Glitched Studi", "Glitched Studio", "Glitched Studios","Glitched Studios™"];
+			let titleIndex = 0;
+			setInterval(function() {
+				titleElement.textContent = titleArray[titleIndex];
+				titleIndex = (titleIndex + 1) % titleArray.length;
+			}, 300);
+		</script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">    </script>
+<script> 
+$(document).ready(function(){
+$("#flip").click(function(){
+    $("#panel").slideToggle("slow");
+});
+});
+</script>
+
+<style> 
+#panel, #flip {
+padding: 5px;
+text-align: center;
+background-color: grey;
+border: solid 1px hsla(240,100%,22%,1.00);
+width: 200px;
+display: block;
+cursor: pointer;
+}
+
+#panel {
+padding: 30px;
+display: none;
+width: 200px;
+}
+</style>
+<script>
+var navbar = document.getElementById("navbar");
+
+var sticky = navbar.offsetTop;
+
+window.onscroll = function() {
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky");
+	} else {
+		navbar.classList.remove("sticky");
+	}
+};
+</script>
+</body>
+</html>
