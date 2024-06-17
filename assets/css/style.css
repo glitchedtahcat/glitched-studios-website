@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+html,
+
+#titletext
+{
+}
+#list {
+	color:black;
+}
+#list ul 
+{
+	position: inherit;
+	background-color: grey;
+	color: white;
+	display: block;
+	width: 140px;
+	height: 110%;
+	border-radius: 15px;
+	animation: borderRotate 5s ease infinite;
+	padding: 11px 24px;
+	margin: 53px;
+	list-style-type: square;
+	overflow: auto;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+# list li:hover{
+	color: white;
+	cursor: pointer;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+	animation: glow 10s ease-in-out infinite;
+}
+#list a {
+	display: block;
+	padding: 5px; 
+	color: #00FFFB;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+}
+#list a:hover {
+	color: white;
+	cursor: pointer;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+	animation: glow 10s ease-in-out infinite;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+	12.5% {
+		text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange;
+	}
+	25% {
+		text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow;
+	}
+	37.5% {
+		text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green;
+	}
+	50% {
+		text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+	}
+	62.5% {
+		text-shadow: 0 0 10px indigo, 0 0 20px indigo, 0 0 30px indigo, 0 0 40px indigo;
+	}
+	75% {
+		text-shadow: 0 0 10px violet, 0 0 20px violet, 0 0 30px violet, 0 0 40px violet;
+	}
+	87.5% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+	100% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+}
+#navbar {
+	overflow: hidden;
+	background-color: black;
+	display: block;
+	animation: borderRotate 5s ease infinite;
+	height: 70px;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	animation: rainbowGradientAnimation 15s ease infinite;
+	border-style: solid;
+		border-color: black;
+
+	}
+
+#navbar p {
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	animation: rainbowGradientAnimation 15s ease infinite;
+}
+#navbar discord
+{
+	float: left;
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+}
+#navbar discord:hover
+{
+	display: block;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px;
+	text-decoration: none;
+	background: blue;
+	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+
+}
+@keyframes rainbow-box-shadow-animation {
+	0% {
+		box-shadow:
+			0 8px 16px 0 rgba(255, 0, 0, 0.5), 
+			0 6px 20px 0 rgba(255, 0, 0, 0.5), 
+			0 4px 24px 0 rgba(255, 0, 0, 0.5),
+			0 2px 28px 0 rgba(255, 0, 0, 0.5),
+			0 0px 32px 0 rgba(255, 0, 0, 0.5),
+			0 -2px 36px 0 rgba(255, 0, 0, 0.5),
+			0 -4px 40px 0 rgba(255, 0, 0, 0.5);
+	}
+	14.28% {
+		box-shadow:
+			0 8px 16px 0 rgba(255, 165, 0, 0.5), 
+			0 6px 20px 0 rgba(255, 165, 0, 0.5), 
+			0 4px 24px 0 rgba(255, 165, 0, 0.5), 
+			0 2px 28px 0 rgba(255, 165, 0, 0.5), 
+			0 0px 32px 0 rgba(255, 165, 0, 0.5), 
+			0 -2px 36px 0 rgba(255, 165, 0, 0.5), 
+			0 -4px 40px 0 rgba(255, 165, 0, 0.5); 
+	}
+	28.57% {
+		box-shadow:
+			0 8px 16px 0 rgba(255, 255, 0, 0.5), 
+			0 6px 20px 0 rgba(255, 255, 0, 0.5), 
+			0 4px 24px 0 rgba(255, 255, 0, 0.5), 
+			0 2px 28px 0 rgba(255, 255, 0, 0.5), 
+			0 0px 32px 0 rgba(255, 255, 0, 0.5), 
+			0 -2px 36px 0 rgba(255, 255, 0, 0.5), 
+			0 -4px 40px 0 rgba(255, 255, 0, 0.5); 
+	}
+	42.86% {
+		box-shadow:
+			0 8px 16px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 6px 20px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 4px 24px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 2px 28px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 0px 32px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 -2px 36px 0 rgba(0, 128, 0, 0.5), /* Green */
+			0 -4px 40px 0 rgba(0, 128, 0, 0.5); /* Green */
+	}
+	57.14% {
+		box-shadow:
+			0 8px 16px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 6px 20px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 4px 24px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 2px 28px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 0px 32px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 -2px 36px 0 rgba(0, 0, 255, 0.5), /* Blue */
+			0 -4px 40px 0 rgba(0, 0, 255, 0.5); /* Blue */
+	}
+	71.43% {
+		box-shadow:
+			0 8px 16px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 6px 20px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 4px 24px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 2px 28px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 0px 32px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 -2px 36px 0 rgba(139, 0, 255, 0.5), /* Purple */
+			0 -4px 40px 0 rgba(139, 0, 255, 0.5); /* Purple */
+	}
+	85.71% {
+		box-shadow:
+			0 8px 16px 0 rgba(255, 0, 0, 0.5),
+			0 6px 20px 0 rgba(255, 0, 0, 0.5),
+			0 4px 24px 0 rgba(255, 0, 0, 0.5),
+			0 2px 28px 0 rgba(255, 0, 0, 0.5),
+			0 0px 32px 0 rgba(255, 0, 0, 0.5),
+			0 -2px 36px 0 rgba(255, 0, 0, 0.5),
+			0 -4px 40px 0 rgba(255, 0, 0, 0.5);
+	}
+	100% {
+		box-shadow:
+			0 8px 16px 0 rgba(255, 165, 0, 0.5), 
+			0 6px 20px 0 rgba(255, 165, 0, 0.5), 
+			0 4px 24px 0 rgba(255, 165, 0, 0.5), 
+			0 2px 28px 0 rgba(255, 165, 0, 0.5), 
+			0 0px 32px 0 rgba(255, 165, 0, 0.5), 
+			0 -2px 36px 0 rgba(255, 165, 0, 0.5), 
+			0 -4px 40px 0 rgba(255, 165, 0, 0.5); 
+	}
+}
+@keyframes transparent-rainbow {
+	0% { background-color: rgba(255, 0, 0, 0.8); }
+	20% { background-color: rgba(255, 165, 0, 0.8); }
+	40% { background-color: rgba(255, 255, 0, 0.8); }
+	60% { background-color: rgba(0, 128, 0, 0.8); }
+	80% { background-color: rgba(0, 0, 255, 0.8); }
+	100% { background-color: rgba(238, 130, 238, 0.8); }
+}
+	@keyframes rainbowGradientAnimation {
+		0% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		5% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		10% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		15% {
+			background: linear-gradient(to right, #00ff00, #00ffff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		20% {
+			background: linear-gradient(to right, #00ffff, #0000ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		25% {
+			background: linear-gradient(to right, #0000ff, #8b00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		30% {
+			background: linear-gradient(to right, #8b00ff, #ff00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		35% {
+			background: linear-gradient(to right, #ff00ff, #ff69b4);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		40% {
+			background: linear-gradient(to right, #ff69b4, #ff0000);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		45% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		50% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		55% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		60% {
+			background: linear-gradient(to right, #00ff00, #00ffff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		65% {
+			background: linear-gradient(to right, #00ffff, #0000ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		70% {
+			background: linear-gradient(to right, #0000ff, #8b00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		75% {
+			background: linear-gradient(to right, #8b00ff, #ff00ff);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		80% {
+			background: linear-gradient(to right, #ff00ff, #ff69b4);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		85% {
+			background: linear-gradient(to right, #ff69b4, #ff0000);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		90% {
+			background: linear-gradient(to right, #ff0000, #ffa500);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		95% {
+			background: linear-gradient(to right, #ffa500, #ffff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+		100% {
+			background: linear-gradient(to right, #ffff00, #00ff00);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-weight: bold;
+		}
+	}
+#navbar a:hover {
+	float: left;
+	display: block;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style: wavy;
+	border-color: gray;
+	background-color: black;
+	animation: boxShadowRotate 5s ease infinite;
+	color: white;
+	animation: text-decoration-color-animation 5s ease infinite;
+	cursor: pointer;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+	animation: glowytextshadow 5s ease infinite;
+}
+@keyframes glowytextshadow {
+	0% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+	12.5% {
+		text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange, 0 0 40px orange;
+	}
+	25% {
+		text-shadow: 0 0 10px yellow, 0 0 20px yellow, 0 0 30px yellow, 0 0 40px yellow;
+	}
+	37.5% {
+		text-shadow: 0 0 10px green, 0 0 20px green, 0 0 30px green, 0 0 40px green;
+	}
+	50% {
+		text-shadow: 0 0 10px blue, 0 0 20px blue, 0 0 30px blue, 0 0 40px blue;
+	}
+	62.5% {
+		text-shadow: 0 0 10px indigo, 0 0 20px indigo, 0 0 30px indigo, 0 0 40px indigo;
+	}
+	75% {
+		text-shadow: 0 0 10px violet, 0 0 20px violet, 0 0 30px violet, 0 0 40px violet;
+	}
+	87.5% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+	100% {
+		text-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red;
+	}
+}
+@keyframes text-decoration-color-animation {
+	0% { text-decoration-color: rgba(255, 0, 0, 0.8); }
+	20% { text-decoration-color: rgba(255, 165, 0, 0.8); }
+	40% { text-decoration-color: rgba(255, 255, 0, 0.8); }
+	60% { text-decoration-color: rgba(0, 128, 0, 0.8); }
+	80% { text-decoration-color: rgba(0, 0, 255, 0.8); }
+	100% { text-decoration-color: rgba(238, 130, 238, 0.8); }
+}
+.content {
+}
+
+.sticky +.content {
+
+}
+p{
+color: white;
+}
+
+
+
+
+@keyframes boxShadowRotate {
+		0% {
+				box-shadow: 0px 0px 100px rgba(250, 88, 242, 0.15);
+		}
+		25% {
+				box-shadow: 0px 0px 100px rgba(0, 153, 255, 0.15);
+		}
+		50% {
+				box-shadow: 0px 0px 100px rgba(0, 255, 0, 0.15);
+		}
+		75% {
+				box-shadow: 0px 0px 100px rgba(255, 51, 153, 0.15);
+		}
+		100% {
+				box-shadow: 0px 0px 100px rgba(250, 88, 242, 0.15);
+		}
+}
+
+@keyframes borderRotate {
+		0% {
+				border: 2px solid rgb(250, 88, 128);
+		}
+		25% {
+				border: 2px solid rgb(0, 153, 255);
+		}
+		50% {
+				border: 2px solid rgb(0, 255, 0);
+		}
+		75% {
+				border: 2px solid rgb(255, 51, 153);
+		}
+		100% {
+				border: 2px solid rgb(250, 88, 128);
+		}
+}
+body {
+	background-color: #3d3d3d;
+	font-family: 'Montserrat', sans-serif;
+	color:white;
+}
+
+
+@keyframes rainbowitemcoloronhover {
+		0% { color: liner-gradient(to right, red, orange, yellow, green, blue, indigo, violet); }
+}
+@keyframes glowingbn5 {
+	0% {
+		background-position: 0 0;
+	}
+	50% {
+		background-position: 400% 0;
+	}
+	100% {
+		background-position: 0 0;
+	}
+}
+	@keyframes glowingbn5 {
+		0% {
+			background-position: 0 0;
+		}
+		50% {
+			background-position: 400% 0;
+		}
+		100% {
+			background-position: 0 0;
+		}
+}
+
